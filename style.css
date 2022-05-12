@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 body {
     
     /* background-image: url("images/ummmtest_html_7795c02170f72b27.gif"); */
@@ -19,7 +23,7 @@ h1{
 .navbar{
     position:fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: antiquewhite;
     width: 100%;
 
