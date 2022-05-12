@@ -1,6 +1,7 @@
 body {
     
-    background-image: url("images/ummmtest_html_7795c02170f72b27.gif");
+    /* background-image: url("images/ummmtest_html_7795c02170f72b27.gif"); */
+    background-color: blue;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -11,6 +12,7 @@ a {
     background-color: rgb(147, 147, 0);
 }
 h1{
+    font-size: 72px;
     background-color: red;
     color: orange;
 }
@@ -26,4 +28,12 @@ h1{
     width: 100%;
     
     
+}
+.imageholder{
+    border: 10px solid orange;
+    height: fit-content;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
